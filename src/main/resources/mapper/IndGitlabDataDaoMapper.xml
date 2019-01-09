@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Dao 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.IndGitlabDataDao" >
+  <resultMap id="BaseResultMap" type="po.IndGitlabData" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="project_id" property="projectId" jdbcType="VARCHAR" />
+    <result column="project_name" property="projectName" jdbcType="VARCHAR" />
+    <result column="require_total_count" property="requireTotalCount" jdbcType="INTEGER" />
+    <result column="code_commint_count" property="codeCommintCount" jdbcType="INTEGER" />
+    <result column="build_time" property="buildTime" jdbcType="INTEGER" />
+    <result column="build_num" property="buildNum" jdbcType="INTEGER" />
+    <result column="build_fail" property="buildFail" jdbcType="INTEGER" />
+    <result column="code_line_num" property="codeLineNum" jdbcType="INTEGER" />
+    <result column="code_problem_num" property="codeProblemNum" jdbcType="INTEGER" />
+    <result column="environment_time" property="environmentTime" jdbcType="INTEGER" />
+    <result column="deploySuccess" property="deploysuccess" jdbcType="INTEGER" />
+    <result column="deployTime" property="deploytime" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

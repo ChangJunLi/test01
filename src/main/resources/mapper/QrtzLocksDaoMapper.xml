@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Dao 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.QrtzLocksDao" >
+  <resultMap id="BaseResultMap" type="po.QrtzLocks" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="SCHED_NAME" property="schedName" jdbcType="VARCHAR" />
+    <id column="LOCK_NAME" property="lockName" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
